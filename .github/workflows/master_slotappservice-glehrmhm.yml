@@ -55,5 +55,5 @@ jobs:
         with:
           app-name: 'slotAppService-glehrmhm'
           slot-name: 'slotAppServiceSlotOne'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7E9D748DA5054DA8905D9ED373DC9EC0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BFE03B3069434FAEA76090EC0E145AE8 }}
           package: .
