@@ -54,6 +54,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'slotAppService-glehrmhm'
-          slot-name: 'Production'
+          slot-name: 'slotAppServiceSlotOne'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7E9D748DA5054DA8905D9ED373DC9EC0 }}
           package: .
